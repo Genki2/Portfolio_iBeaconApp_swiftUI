@@ -12,6 +12,7 @@ struct iBeaconSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                //.environmentObject(ScanViewModel())
         }
     }
 }

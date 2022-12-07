@@ -11,14 +11,37 @@
 		3742B9E92939EFB7000AD9C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742B9E82939EFB7000AD9C2 /* ContentView.swift */; };
 		3742B9EB2939EFBA000AD9C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3742B9EA2939EFBA000AD9C2 /* Assets.xcassets */; };
 		3742B9EE2939EFBA000AD9C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3742B9ED2939EFBA000AD9C2 /* Preview Assets.xcassets */; };
+		3742B9F6293A108F000AD9C2 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742B9F5293A108F000AD9C2 /* ScanView.swift */; };
+		3742B9F8293A1347000AD9C2 /* ScanCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742B9F7293A1347000AD9C2 /* ScanCellView.swift */; };
+		3742B9FA293A1DCF000AD9C2 /* ScanResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742B9F9293A1DCF000AD9C2 /* ScanResultView.swift */; };
+		3742B9FC293A203D000AD9C2 /* ScanResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742B9FB293A203D000AD9C2 /* ScanResultCell.swift */; };
+		374F2E95293CABC8008D0838 /* AddScanUUIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374F2E94293CABC8008D0838 /* AddScanUUIDView.swift */; };
+		374F2E9A293D64AD008D0838 /* ScanList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374F2E99293D64AD008D0838 /* ScanList.swift */; };
+		374F2E9D293D6589008D0838 /* ScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374F2E9C293D6589008D0838 /* ScanViewModel.swift */; };
+		374F2EA8293ED46C008D0838 /* ViewWillAppearHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374F2EA7293ED46C008D0838 /* ViewWillAppearHandler.swift */; };
+		374F2EAA293F37CA008D0838 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374F2EA9293F37CA008D0838 /* LocationViewModel.swift */; };
+		D3EE1D2ED51B0262EE05D696 /* Pods_iBeaconSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F6692B7FCAEB7F16FBF247 /* Pods_iBeaconSwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11F6692B7FCAEB7F16FBF247 /* Pods_iBeaconSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iBeaconSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3742B9E32939EFB7000AD9C2 /* iBeaconSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeaconSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3742B9E62939EFB7000AD9C2 /* iBeaconSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBeaconSwiftUIApp.swift; sourceTree = "<group>"; };
 		3742B9E82939EFB7000AD9C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3742B9EA2939EFBA000AD9C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3742B9ED2939EFBA000AD9C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3742B9F5293A108F000AD9C2 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		3742B9F7293A1347000AD9C2 /* ScanCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCellView.swift; sourceTree = "<group>"; };
+		3742B9F9293A1DCF000AD9C2 /* ScanResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResultView.swift; sourceTree = "<group>"; };
+		3742B9FB293A203D000AD9C2 /* ScanResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResultCell.swift; sourceTree = "<group>"; };
+		374F2E94293CABC8008D0838 /* AddScanUUIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScanUUIDView.swift; sourceTree = "<group>"; };
+		374F2E99293D64AD008D0838 /* ScanList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanList.swift; sourceTree = "<group>"; };
+		374F2E9C293D6589008D0838 /* ScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewModel.swift; sourceTree = "<group>"; };
+		374F2EA7293ED46C008D0838 /* ViewWillAppearHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWillAppearHandler.swift; sourceTree = "<group>"; };
+		374F2EA9293F37CA008D0838 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		374F2EAB293F44CB008D0838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		398700063FEF271F97D99FE1 /* Pods-iBeaconSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBeaconSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-iBeaconSwiftUI/Pods-iBeaconSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		A41355D2A6439DB1BCB5160A /* Pods-iBeaconSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBeaconSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-iBeaconSwiftUI/Pods-iBeaconSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EE1D2ED51B0262EE05D696 /* Pods_iBeaconSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +61,8 @@
 			children = (
 				3742B9E52939EFB7000AD9C2 /* iBeaconSwiftUI */,
 				3742B9E42939EFB7000AD9C2 /* Products */,
+				82E383480AC9A3C8C32315DB /* Pods */,
+				424CD9CE7E56714329EE73C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +77,11 @@
 		3742B9E52939EFB7000AD9C2 /* iBeaconSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				374F2EAB293F44CB008D0838 /* Info.plist */,
 				3742B9E62939EFB7000AD9C2 /* iBeaconSwiftUIApp.swift */,
-				3742B9E82939EFB7000AD9C2 /* ContentView.swift */,
+				374F2E96293D645C008D0838 /* Model */,
+				3742B9F4293A0EE4000AD9C2 /* View */,
+				374F2E9B293D650C008D0838 /* ViewModel */,
 				3742B9EA2939EFBA000AD9C2 /* Assets.xcassets */,
 				3742B9EC2939EFBA000AD9C2 /* Preview Content */,
 			);
@@ -67,6 +96,54 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3742B9F4293A0EE4000AD9C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3742B9E82939EFB7000AD9C2 /* ContentView.swift */,
+				3742B9F5293A108F000AD9C2 /* ScanView.swift */,
+				3742B9F7293A1347000AD9C2 /* ScanCellView.swift */,
+				3742B9F9293A1DCF000AD9C2 /* ScanResultView.swift */,
+				3742B9FB293A203D000AD9C2 /* ScanResultCell.swift */,
+				374F2E94293CABC8008D0838 /* AddScanUUIDView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		374F2E96293D645C008D0838 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				374F2E99293D64AD008D0838 /* ScanList.swift */,
+				374F2EA7293ED46C008D0838 /* ViewWillAppearHandler.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		374F2E9B293D650C008D0838 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				374F2E9C293D6589008D0838 /* ScanViewModel.swift */,
+				374F2EA9293F37CA008D0838 /* LocationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		424CD9CE7E56714329EE73C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11F6692B7FCAEB7F16FBF247 /* Pods_iBeaconSwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82E383480AC9A3C8C32315DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A41355D2A6439DB1BCB5160A /* Pods-iBeaconSwiftUI.debug.xcconfig */,
+				398700063FEF271F97D99FE1 /* Pods-iBeaconSwiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3742B9F12939EFBA000AD9C2 /* Build configuration list for PBXNativeTarget "iBeaconSwiftUI" */;
 			buildPhases = (
+				2A5F194AE6F7E4D35C6D09C8 /* [CP] Check Pods Manifest.lock */,
 				3742B9DF2939EFB7000AD9C2 /* Sources */,
 				3742B9E02939EFB7000AD9C2 /* Frameworks */,
 				3742B9E12939EFB7000AD9C2 /* Resources */,
+				16B74ACD9DDD41BE2B38F07E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +211,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16B74ACD9DDD41BE2B38F07E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iBeaconSwiftUI/Pods-iBeaconSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iBeaconSwiftUI/Pods-iBeaconSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iBeaconSwiftUI/Pods-iBeaconSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A5F194AE6F7E4D35C6D09C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iBeaconSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3742B9DF2939EFB7000AD9C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				374F2EA8293ED46C008D0838 /* ViewWillAppearHandler.swift in Sources */,
 				3742B9E92939EFB7000AD9C2 /* ContentView.swift in Sources */,
+				3742B9FA293A1DCF000AD9C2 /* ScanResultView.swift in Sources */,
+				374F2E9A293D64AD008D0838 /* ScanList.swift in Sources */,
+				3742B9F8293A1347000AD9C2 /* ScanCellView.swift in Sources */,
+				374F2EAA293F37CA008D0838 /* LocationViewModel.swift in Sources */,
 				3742B9E72939EFB7000AD9C2 /* iBeaconSwiftUIApp.swift in Sources */,
+				3742B9F6293A108F000AD9C2 /* ScanView.swift in Sources */,
+				3742B9FC293A203D000AD9C2 /* ScanResultCell.swift in Sources */,
+				374F2E95293CABC8008D0838 /* AddScanUUIDView.swift in Sources */,
+				374F2E9D293D6589008D0838 /* ScanViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +391,7 @@
 		};
 		3742B9F22939EFBA000AD9C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41355D2A6439DB1BCB5160A /* Pods-iBeaconSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,11 +401,17 @@
 				DEVELOPMENT_TEAM = 34P55W3CW9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iBeaconSwiftUI/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "位置";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "位置";
+				INFOPLIST_KEY_NSLocationUsageDescription = "あああ";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "位置";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,6 +427,7 @@
 		};
 		3742B9F32939EFBA000AD9C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398700063FEF271F97D99FE1 /* Pods-iBeaconSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,11 +437,17 @@
 				DEVELOPMENT_TEAM = 34P55W3CW9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iBeaconSwiftUI/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "位置";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "位置";
+				INFOPLIST_KEY_NSLocationUsageDescription = "あああ";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "位置";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
