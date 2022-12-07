@@ -1,5 +1,6 @@
 # Portfolio_iBeaconApp_swiftUI
-iBeaconを発信、スキャンできるアプリ
+iBeaconを発信、スキャンできるアプリ SwiftUIver
+[Storyboard ver ](https://github.com/Genki2/Portfolio_iBeaconApp)
 
 ## アーキテクチャ
 MVVM
